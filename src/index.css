@@ -5,20 +5,20 @@
     --ff-primary: 'Stolzl', sans-serif;
 
     --ff-body: var(--ff-primary);
-    --ff-hrading: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
 
     --fw-regular: 400;
     --fw-medium: 500;
     --fw-bold: 700;
 
-    --fs-300: 1rem; /*16*/
+    --fs-300: 0.875rem; /*14*/
     --fs-400: 1.063rem ; /*17*/
     --fs-500: 1.125rem; /*18*/
     --fs-600: 1.5rem; /*24*/
     --fs-700: 3rem; /*48*/
 
     --fs-body: var(--fs-400);
-    --fs-nav: var(--fs-500);
+    --fs-nav: var(--fs-300);
     --fs-primary-heading: var(--fs-700);
     --fs-secondary-heading: var(--fs-600);
     --fs-m-button: var(--fs-500);
@@ -41,6 +41,7 @@
 
 body {
     margin: 0;
+    font-family: var(--ff-body);
 }
 
 html,
@@ -59,6 +60,17 @@ picture,
 svg {
     max-width: 100%;
     display: block;
+    cursor: pointer;
+}
+
+a {
+    color: var(--clr-bright);
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
 }
 
 @font-face {
@@ -96,6 +108,16 @@ svg {
 
 .fs-secondary-heading {
     font-size: var(--fs-secondary-heading);
+}
+
+.fb-x-center {
+    display: flex;
+    justify-content: center;
+}
+
+.fb-d-row {
+    display: flex;
+    flex-direction: row;
 }
 
 /*@font-face {*/

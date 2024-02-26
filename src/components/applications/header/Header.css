@@ -1,0 +1,46 @@
+.header {
+    background-color: transparent;
+    min-width: 81.25em;
+    height: 6.8125em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5.71875em;
+}
+
+.logo_section {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_section {
+    width: 32.875em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_link {
+    font-size: var(--fs-nav);
+}
+
+.nav_link:hover {
+    color: var(--clr-accent);
+}
+
+.touch_section {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_button {
+    width: 171px;
+    height: 42px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: var(--fs-s-button);
+}
+
+.header_button:hover {
+    color: var(--clr-bright);
+    background-color: var(--clr-accent);
+}

@@ -15,7 +15,7 @@
     --fs-400: 1.063rem ; /*17*/
     --fs-500: 1.125rem; /*18*/
     --fs-600: 1.5rem; /*24*/
-    --fs-700: 3rem; /*48*/
+    --fs-700: 4em; /*64*/
 
     --fs-body: var(--fs-400);
     --fs-nav: var(--fs-300);
@@ -26,7 +26,7 @@
 
 }
 
-@media (min-width: 50em) {
+/*@media (min-width: 50em) {
     :root {
         --fs-700: 4rem;
         --fs-600: 2rem;
@@ -37,11 +37,12 @@
         --fs-m-button: var(--fs-400);
         --fs-s-button: var(--fs-300);
     }
-}
+}*/
 
 body {
     margin: 0;
     font-family: var(--ff-body);
+    color: var(--clr-bright);
 }
 
 html,
@@ -71,7 +72,18 @@ a {
 button {
     border: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
+
+button:hover {
+    color: var(--clr-bright);
+    background-color: var(--clr-accent);
+}
+
+h1 {
+    font-size: var(--fs-primary-heading);
+}
+
 
 @font-face {
     font-family: 'Stolzl';
@@ -110,15 +122,36 @@ button {
     font-size: var(--fs-secondary-heading);
 }
 
+.button-s-size {
+    border-radius: 8px;
+    font-size: var(--fs-s-button);
+}
+
+.button-m-size {
+    border-radius: 12px;
+    font-size: var(--fs-m-button);
+}
+
 .fb-x-center {
     display: flex;
     justify-content: center;
+}
+
+.fb-x-left {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .fb-d-row {
     display: flex;
     flex-direction: row;
 }
+
+.fb-d-column {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*@font-face {*/
 /*    font-family: 'Stolzl-light';*/

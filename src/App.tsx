@@ -1,5 +1,6 @@
 import './App.css'
 import Header from "./components/applications/header/Header.tsx";
+import Home from "./components/applications/home/Home.tsx";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <div className="main_background fb-x-center">
         <div className="main_wrapper">
             <Header/>
-            {/*<Nav/>*/}
+            <Home/>
         </div>
     </div>
   )

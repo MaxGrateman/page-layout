@@ -1,0 +1,15 @@
+.home {
+    width: 31.875em;
+    height: 21.25em;
+    justify-content: space-between;
+}
+
+.five-start-icon {
+    width: 8.75em;
+    height: 1.25em;
+}
+
+.home-book-button {
+    width: 17.5em;
+    height: 3.625em;
+}

@@ -6,41 +6,34 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5.71875em;
+    margin-bottom: 7.8125em;
 }
 
-.logo_section {
+.logo-section {
     align-items: center;
     justify-content: space-around;
 }
 
-.nav_section {
+.nav-section {
     width: 32.875em;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav_link {
+.nav-link {
     font-size: var(--fs-nav);
 }
 
-.nav_link:hover {
+.nav-link:hover {
     color: var(--clr-accent);
 }
 
-.touch_section {
+.touch-section {
     align-items: center;
     justify-content: space-between;
 }
 
-.header_button {
+.header-button {
     width: 171px;
     height: 42px;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-size: var(--fs-s-button);
-}
-
-.header_button:hover {
-    color: var(--clr-bright);
-    background-color: var(--clr-accent);
 }

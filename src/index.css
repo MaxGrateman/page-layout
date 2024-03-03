@@ -84,6 +84,10 @@ h1 {
     font-size: var(--fs-primary-heading);
 }
 
+h2 {
+    font-size: var(--fs-secondary-heading);
+}
+
 
 @font-face {
     font-family: 'Stolzl';

@@ -11,3 +11,9 @@
     max-width: 81.25em;
     height: 100%;
 }
+
+@media (min-height: 1020px) {
+    .main_background {
+        overflow-y: hidden;
+    }
+}

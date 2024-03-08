@@ -3,7 +3,7 @@ import "./Suggest.css"
 
 function Suggest() {
     return(
-        <div className="suggest-container fb-x-left fb-d-column">
+        <div className="suggest-container">
             <h2 className="fw-medium">Лучшие предложения</h2>
             <div className="suggest-cards fb-d-row">
                 <Card height={168} width={340}  padding={20} gap={24} flexDirection={'row'} justifyContent={'space-between'}>

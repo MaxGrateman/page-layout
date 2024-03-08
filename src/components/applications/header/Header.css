@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5.71875em;
-    margin-bottom: 7.8125em;
+    margin-bottom: 6.25rem;
 }
 
 .logo-section {

@@ -3,6 +3,7 @@ import Header from "./components/applications/header/Header.tsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./components/applications/home/Home.tsx";
 import Rooms from "./components/applications/rooms/Rooms.tsx";
+import Contacts from "./components/applications/contacts/Contacts.tsx";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
                   <Routes>
                       <Route path="/" element={<Home />} />
                       <Route path="/rooms" element={<Rooms />} />
+                      <Route path="/contacts" element={<Contacts/>} />
                   </Routes>
               </div>
           </div>

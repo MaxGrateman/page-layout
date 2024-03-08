@@ -10,6 +10,7 @@
 .main_wrapper {
     max-width: 81.25em;
     height: 100%;
+    padding-bottom: 6.25rem;
 }
 
 @media (min-height: 1020px) {

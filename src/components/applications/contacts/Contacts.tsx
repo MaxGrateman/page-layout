@@ -1,4 +1,5 @@
 import "./Contacts.css";
+import YMap from "../../widgets/ymap/YMap.tsx";
 
 function Contacts() {
     return(
@@ -46,7 +47,7 @@ function Contacts() {
                     Данный ресурс не является официальным сайтом отеля.</p>
             </div>
             <div className="contacts-col-2">
-
+                <YMap/>
             </div>
         </div>
     )

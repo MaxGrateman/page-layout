@@ -15,12 +15,13 @@
     --fs-400: 1.063rem ; /*17*/
     --fs-500: 1.125rem; /*18*/
     --fs-600: 1.5rem; /*24*/
-    --fs-700: 4em; /*64*/
+    --fs-700: 3rem; /*48*/
+    --fs-800: 4em; /*64*/
 
     --fs-body: var(--fs-400);
     --fs-nav: var(--fs-300);
-    --fs-primary-heading: var(--fs-700);
-    --fs-secondary-heading: var(--fs-600);
+    --fs-primary-heading: var(--fs-800);
+    --fs-secondary-heading: var(--fs-700);
     --fs-m-button: var(--fs-500);
     --fs-s-button: var(--fs-300);
 
@@ -45,7 +46,6 @@ body {
     font: inherit;
 }
 
-img,
 picture,
 svg {
     max-width: 100%;
@@ -75,6 +75,10 @@ h1 {
 
 h2 {
     font-size: var(--fs-secondary-heading);
+}
+
+h3 {
+    font-size: var(--fs-600);
 }
 
 

@@ -8,7 +8,7 @@ function YMap() {
             <YMaps>
                 <div>
                     <Map defaultState={{ center: [43.682027, 40.216573], zoom: 10 }} width={635} height={450}>
-                        <Placemark geometry={coordinates} />
+                        <Placemark geometry={coordinates}/>
                     </Map>
                 </div>
             </YMaps>

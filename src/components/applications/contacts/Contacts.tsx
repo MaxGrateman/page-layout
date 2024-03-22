@@ -5,13 +5,13 @@ function Contacts() {
     return(
         <div className="contacts fb-d-row">
             <div className="contacts-col-1 fb-d-column">
-                <h1 className="fw-bold">Контакты</h1>
+                <h2 className="fw-bold">Контакты</h2>
                 <div className="contacts-telegram">
                     <img src="src/assets/icons/telegram.svg" alt="telegram-icon" style={{marginRight: "10px"}}/>
                     <p style={{margin: "0px"}}>Telegram канал «Лучшие горнолыжные курорты России»</p>
                 </div>
                 <div className="contacts-touch fb-d-column">
-                    <h2>Свяжитесь с нами:</h2>
+                    <h3>Свяжитесь с нами:</h3>
                     <ul>
                         <li>
                             <span className="triangle"></span>
@@ -24,7 +24,7 @@ function Contacts() {
                     </ul>
                 </div>
                 <div className="contacts-tour">
-                    <h2>Адрес туристической компании:</h2>
+                    <h3>Адрес туристической компании:</h3>
                     <ul>
                         <li>
                             <span className="triangle"></span>
@@ -33,7 +33,7 @@ function Contacts() {
                     </ul>
                 </div>
                 <div className="contacts-address fb-d-column">
-                    <h2>Адрес:</h2>
+                    <h3>Адрес:</h3>
                     <ul>
                         <li>
                             <span className="triangle"></span>

@@ -1,0 +1,29 @@
+.entertain {
+    justify-content: space-between;
+    height: 45.625rem;
+    gap: 20px;
+}
+
+.entertain-col-1 {
+    max-width: 38.688rem;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.entertain-text-section {
+    height: 7.75em;
+    justify-content: space-between;
+}
+
+.entertain-collage {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entertain-collage {
+    margin-top: 110px;
+}
+
+.entertain-collage-item {
+    margin: 10px;
+}

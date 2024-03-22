@@ -10,7 +10,7 @@ function Suggest() {
                     <img width={128} height={128} src="src/assets/images/appartment-card-1.png" alt="appartment-iamge-1" style={{ flex: "0 0 auto" }}/>
                     <div className="card-info">
                         <p className="card-label">Премиум Кинг</p>
-                        <h2 className="card-price">₽ 4 000</h2>
+                        <h3 className="card-price">₽ 4 000</h3>
                         <button className="card-button button-s-size">Подробнее</button>
                     </div>
                 </Card>
@@ -19,7 +19,7 @@ function Suggest() {
                     <img width={128} height={128} src="src/assets/images/appartment-card-2.png" alt="appartment-iamge-2"/>
                     <div className="card-info">
                         <p className="card-label">Эксклюзивный Кинг</p>
-                        <h2 className="card-price">₽ 5 000</h2>
+                        <h3 className="card-price">₽ 5 000</h3>
                         <button className="card-button button-s-size">Подробнее</button>
                     </div>
                 </Card>
@@ -28,7 +28,7 @@ function Suggest() {
                     <img width={128} height={128} src="src/assets/images/appartment-card-3.png" alt="appartment-iamge-3"/>
                     <div className="card-info">
                         <p className="card-label">Star Кинг</p>
-                        <h2 className="card-price">₽ 8 000</h2>
+                        <h3 className="card-price">₽ 8 000</h3>
                         <button className="card-button button-s-size">Подробнее</button>
                     </div>
                 </Card>

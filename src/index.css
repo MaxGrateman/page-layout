@@ -64,11 +64,6 @@ button {
     box-sizing: border-box;
 }
 
-button:hover {
-    color: var(--clr-bright);
-    background-color: var(--clr-accent);
-}
-
 h1 {
     font-size: var(--fs-primary-heading);
 }

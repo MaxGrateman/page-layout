@@ -19,4 +19,11 @@
 .card-button {
     width: 7.5em;
     height: 2.625em;
+    color: var(--clr-bright);
+    background-color: var(--clr-accent);
+}
+
+.card-button:hover {
+    color: var(--clr-accent);
+    background-color: var(--clr-bright);
 }

@@ -1,0 +1,21 @@
+.rooms {
+
+}
+
+.rooms-paragraph {
+    margin-top: 10px;
+    font-size: var(--fs-500);
+    color: var(--clr-bright);
+}
+
+.rooms-book-button {
+    width: 17.5em;
+    height: 3.625em;
+    color: var(--clr-bright);
+    background-color: var(--clr-accent);
+}
+
+.rooms-book-button:hover {
+    color: var(--clr-accent);
+    background-color: var(--clr-bright);
+}

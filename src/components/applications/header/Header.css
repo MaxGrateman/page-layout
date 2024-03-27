@@ -37,3 +37,8 @@
     width: 171px;
     height: 42px;
 }
+
+.header-button:hover {
+    color: var(--clr-bright);
+    background-color: var(--clr-accent);
+}

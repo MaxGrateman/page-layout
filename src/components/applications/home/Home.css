@@ -13,4 +13,11 @@
 .home-book-button {
     width: 17.5em;
     height: 3.625em;
+    color: var(--clr-bright);
+    background-color: var(--clr-accent);
+}
+
+.home-book-button:hover {
+    color: var(--clr-accent);
+    background-color: var(--clr-bright);
 }
